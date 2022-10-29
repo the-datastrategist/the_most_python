@@ -15,7 +15,7 @@
 
 WITH
 
-  library_downloads AS (
+library_downloads AS (
   SELECT
     project,
     file.version AS version,
@@ -26,7 +26,7 @@ WITH
     DATE(timestamp) BETWEEN "2022-06-01" AND "2022-06-30"
   GROUP BY 1,2 ),
   
-  library_metadata AS (
+library_metadata AS (
   SELECT
     name,
     version,
@@ -36,7 +36,8 @@ WITH
     home_page,
     download_url
   FROM
-    `bigquery-public-data.pypi.distribution_metadata` )
+    `bigquery-public-data.pypi.distribution_metadata`
+)
 
 SELECT
   d.*,

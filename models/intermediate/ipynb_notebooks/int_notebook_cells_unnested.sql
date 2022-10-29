@@ -11,9 +11,8 @@ WITH
     -- 3. Split on cell_type since it's the first key in each cell content dictionary
     SPLIT(REGEXP_EXTRACT(REPLACE(content, '\n', ''), r'cells\"\:(.*)'), 'cell_type') AS cells,
   FROM
-    `the-data-strategist.the_most_python.python_file_contents`
-  WHERE
-    repo_path LIKE '%.ipynb' )
+    {{ ref('stg_github_repos__python_file_contents') }}
+  WHERE repo_path LIKE '%.ipynb' )
 
 
 -- For each cell, extract metadata (eg type) and contents (eg source, input)
