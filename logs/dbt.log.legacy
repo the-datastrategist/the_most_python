@@ -248,7 +248,7 @@
 2022-10-29 17:17:22.511323 (Thread-41): 17:17:22  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '940cfa19-416b-45ea-9aa2-4ccf4bef7352', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbf2838caf0>]}
 2022-10-29 17:17:22.511863 (Thread-41): 17:17:22  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
 2022-10-29 17:17:22.512165 (Thread-41): 17:17:22  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '940cfa19-416b-45ea-9aa2-4ccf4bef7352', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbf28282550>]}
-2022-10-29 17:17:22.513003 (Thread-41): 17:17:22  The selection criterion '+sql/python_file_contents.sql+' does not match any nodes
+2022-10-29 17:17:22.513003 (Thread-41): 17:17:22  The selection criterion '+sql/stg_github_repos__python_file_contents.sql+' does not match any nodes
 2022-10-29 17:17:22.513168 (Thread-41): 17:17:22  No nodes selected!
 2022-10-29 17:17:22.514681 (Thread-41): sending response (<Response 2530 bytes [200 OK]>) to 10.0.8.84
 2022-10-29 17:17:22.645392 (Thread-42): handling status request
@@ -271,7 +271,7 @@
 2022-10-29 17:17:56.066590 (Thread-46): 17:17:56  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '940cfa19-416b-45ea-9aa2-4ccf4bef7352', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbf282a6ca0>]}
 2022-10-29 17:17:56.067060 (Thread-46): 17:17:56  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
 2022-10-29 17:17:56.067361 (Thread-46): 17:17:56  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '940cfa19-416b-45ea-9aa2-4ccf4bef7352', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbf2829d040>]}
-2022-10-29 17:17:56.068152 (Thread-46): 17:17:56  The selection criterion '+sql/python_file_contents.sql+' does not match any nodes
+2022-10-29 17:17:56.068152 (Thread-46): 17:17:56  The selection criterion '+sql/stg_github_repos__python_file_contents.sql+' does not match any nodes
 2022-10-29 17:17:56.068304 (Thread-46): 17:17:56  No nodes selected!
 2022-10-29 17:17:56.069823 (Thread-46): sending response (<Response 2530 bytes [200 OK]>) to 10.0.8.84
 2022-10-29 17:17:57.465086 (Thread-47): handling status request
@@ -315,7 +315,7 @@
 2022-10-29 17:18:20.518465 (Thread-58): 17:18:20  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '940cfa19-416b-45ea-9aa2-4ccf4bef7352', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbf2824cb50>]}
 2022-10-29 17:18:20.518961 (Thread-58): 17:18:20  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
 2022-10-29 17:18:20.519250 (Thread-58): 17:18:20  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '940cfa19-416b-45ea-9aa2-4ccf4bef7352', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbf282b4a60>]}
-2022-10-29 17:18:20.520051 (Thread-58): 17:18:20  The selection criterion '+sql/python_file_contents.sql+' does not match any nodes
+2022-10-29 17:18:20.520051 (Thread-58): 17:18:20  The selection criterion '+sql/stg_github_repos__python_file_contents.sql+' does not match any nodes
 2022-10-29 17:18:20.520213 (Thread-58): 17:18:20  No nodes selected!
 2022-10-29 17:18:20.521926 (Thread-58): sending response (<Response 2530 bytes [200 OK]>) to 10.0.8.84
 2022-10-29 17:18:23.784892 (Thread-59): handling status request
@@ -335,7 +335,7 @@
 2022-10-29 17:18:53.948150 (Thread-62): 17:18:53  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '940cfa19-416b-45ea-9aa2-4ccf4bef7352', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbf2825c1f0>]}
 2022-10-29 17:18:53.948608 (Thread-62): 17:18:53  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
 2022-10-29 17:18:53.948880 (Thread-62): 17:18:53  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '940cfa19-416b-45ea-9aa2-4ccf4bef7352', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbf28237940>]}
-2022-10-29 17:18:53.949709 (Thread-62): 17:18:53  The selection criterion '+sql/python_file_contents.sql+' does not match any nodes
+2022-10-29 17:18:53.949709 (Thread-62): 17:18:53  The selection criterion '+sql/stg_github_repos__python_file_contents.sql+' does not match any nodes
 2022-10-29 17:18:53.949878 (Thread-62): 17:18:53  No nodes selected!
 2022-10-29 17:18:53.951248 (Thread-62): sending response (<Response 2530 bytes [200 OK]>) to 10.0.8.84
 2022-10-29 17:19:15.947531 (Thread-63): handling status request
