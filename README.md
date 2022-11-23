@@ -1,5 +1,5 @@
 # the_most_python
-A collection of information about the most common Python libraries, functions, and questions.
+A collection of information about the most common Python libraries, functions, and questions. Set up using dbt.
 
 ### Resources
 - [Project Brief](https://thedatastrategist.notion.site/The-Most-Used-Python-61218fdc12564fcc8bef195098920808)
